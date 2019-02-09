@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/styles.css" media="screen" title="no title">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <title>Muse</title>
+</head>
+<body>
+        <div class="hero-full-screen">
+
+                <div class="top-content-section">
+                  <div class="top-bar">
+                    <div class="top-bar-left">
+                      <ul class="menu">
+                        <li class="menu-text"><img src="http://placehold.it/75x30" alt="logo"></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="middle-content-section">
+                  <h1></h1>
+                  <form class="callout text-center">
+                        <h2></h2>
+                        <div class="floated-label-wrapper">
+                          <label for="full-name">Full name</label>
+                          <input type="text" id="full-name" name="full name input" placeholder="Name">
+                        </div>
+                        <div class="floated-label-wrapper">
+                            <div class="age-input">
+                              <label for="age"></label>
+                            </div>
+                            <select class="age" id="age-choice">
+                              <option selected>Age</option>
+                              <option value="1">1-15</option>
+                              <option value="2">16-20</option>
+                              <option value="3">21-25</option>
+                              <option value="4">26-30</option>
+                              <option value="5">31-40</option>
+                              <option value="6">41-50</option>
+                            </select>
+                          </div>
+                        <div class="floated-label-wrapper">
+                            <div class="gender-input">
+                              <label for="gender"></label>
+                            </div>
+                            <select class="gender" id="gender-choice">
+                              <option selected>Gender</option>
+                              <option value="1">Male</option>
+                              <option value="2">Female</option>
+                            </select>
+                          </div>
+                        <input class="button expanded" type="submit" value="Submit">
+                      </form>                      
+                </div>
+              
+                <div class="bottom-content-section" data-magellan data-threshold="0">
+                  <a href="#main-content-section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/></svg></a>
+                </div>
+              
+              </div>
+              
+              <div id="main-content-section" data-magellan-target="main-content-section">
+                <!-- your content goes here -->
+              </div>
+                            
+    <script src="styles/styles.css" type="text/javascript"></script>
+</body>
+</html>

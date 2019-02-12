@@ -11,6 +11,7 @@ var db = {};
 if (config.use_env_variable) {
   var sequelize = new Sequelize(process.env[config.use_env_variable]);
 } else {
+  console.log(`Inside index.js swquelinzing sguff.`)
   var sequelize = new Sequelize(
     config.database,
     config.username,
@@ -18,7 +19,7 @@ if (config.use_env_variable) {
     config
   );
 }
-
+console.log(`TWO `)
 fs.readdirSync(__dirname)
   .filter(function(file) {
     return (

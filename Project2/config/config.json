@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "P@55word",
-    "port": 3306,
+    "password": "root",
+    "port": 8889,
     "database": "muse_db",
     "host": "localhost",
     "dialect": "mysql"

@@ -16,8 +16,8 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url("https://images.pexels.com/photos/378273/pexels-photo-378273.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb") center center no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .hero-full-screen .middle-content-section {
@@ -65,6 +65,135 @@
   font-weight: bold;
 }
 
+
+.hero-full-screen > div{
+
+  position: absolute;
+
+}
+
+.full-name{
+
+  padding: 15px;
+  background-color: rgba(255,255,255,0.5);
+  color: black;
+  border: none;
+
+}
+
+#title{
+
+  margin: 90px;
+  color: white;
+  font-size: 55pt;
+  font-family: "Consolas";
+
+
+}
+
+.img-div{
+
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+#emotion-header{
+
+  margin: 100px;
+  font-family: "Consolas";
+  color: white;
+
+}
+
+.floated-label-wrapper{
+
+  margin: 15px;
+
+}
+
+.age-input{
+
+  margin-top: 150px;
+  font-family: "Consolas";
+  color: white;
+  font-size: 15pt;
+
+}
+
+#age-choice{
+
+  margin-top: 15px;
+  border-radius: 35px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+.gender-input{
+
+  margin-bottom: 15px;
+  font-family: "Consolas";
+  color: white;
+  font-size: 15pt;
+
+}
+
+#gender-choice{
+
+  border-radius: 35px;
+  padding: 15px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.4); 
+
+}
+
+.begin-box{
+
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px;
+  border-style:"solid";
+  font-size: 22pt;
+  font-family: "Consolas";
+  color: white;
+
+}
+
+button.begin-box:hover{
+
+  background-image: linear-gradient(to top, #5cc9b1, #5cabc9);
+
+}
+
+button.begin-box{
+
+  padding: 10px 22px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:italic;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  background-image: linear-gradient(to bottom, #5cc9b1, #5cabc9);
+  box-shadow: 2px 3px #1a353a;
+
+}
+
+.age .gender{
+
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 29px;
+  padding: 5px; /* If you add too much padding here, the options won't show in IE */
+  width: 268px;
+
+}
 
 .button-hover-reveal-wrapper {
   overflow: hidden;
